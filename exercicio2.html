@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercicio 2</title>
+</head>
+<body>
+    <form method="get">
+        <label>Nome: <input type="text" name="txtNome" id="idNome" maxlength="20" required/></label><br/>
+        <p></p>
+        <label for="idEmail">E-mail: </label>
+        <input type="email" name="txtEmail" id="idEmail" placeholder="Informe seu e-mail"><br/>
+        <p></p>
+        <label for="idSenha">Senha: </label>
+        <input type="password" name="txtSenha" id="idSenha"><br/>
+        <p></p>
+        <label for="idCPF">CPF: </label>
+        <input type="number" name="txtCPF" id="idCPF"><br/>
+        <p></p>
+        <label for="idIdade">Idade: </label>
+        <input type="number" name="txtIdade" id="idIdade" min="1" max="150"><br/>
+        <p></p>
+        <label>País: <input type="text" name="txtPais" id="idPais" readonly="readonlys" value="Brasil" size="5" /></label><br />
+        <p></p>
+        <label>
+            Estado:
+            <select name="estado">
+                <option>RS</option>
+                <option selected="selected">SC</option>
+                <option>PR</option>
+            </select>
+        </label>
+        </br>
+        <p></p>
+        Área de Interesse:<br/>
+        <p></p>
+        <label> DBO <input type="checkbox" value="DBO" name="area-interesse"> </label>
+        <label> Matematica <input type="checkbox" value="matematica" name="area-interesse"> </label>
+        <label> Historia <input type="checkbox" value="historia" name="area-interesse"> </label>
+        <p></p>
+        forma de pagamento:<br/>
+        <p></p>
+        <label>Boleto Bancário<input type="radio" name="pgto" value="boleto"></label>
+        <label>Cartão de Crédito<input type="radio" name="pgto" value="boleto"></label>
+        <label>Cartão de Dédito<input type="radio" name="pgto" value="boleto"></label>
+        <p></p>
+        <input type="submit" value="Cadastrar usuário"/>
+
+
+    </form>
+</body>
+</html>
